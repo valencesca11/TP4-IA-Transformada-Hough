@@ -1,0 +1,16 @@
+{
+  "radio_busqueda_px": 30,
+  "centro_detectado": [
+    100,
+    80
+  ],
+  "votos_maximos": 200,
+  "umbral": 60,
+  "centro_real": [
+    100,
+    80
+  ],
+  "radio_real_px": 30,
+  "semilla_ruido": 7,
+  "error_centro_px": 0.0
+}
