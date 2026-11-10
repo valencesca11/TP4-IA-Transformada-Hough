@@ -106,3 +106,25 @@ OpenCV, Hough Line Transform:
 https://docs.opencv.org/4.x/d6/d10/tutorial_py_houghlines.html
 
 La consulta es conceptual; este programa implementa su propio acumulador.
+
+## Punto 3: Hough para circunferencias
+
+El prototipo detecta el centro de una circunferencia de radio conocido en una imagen simulada con ruido. Utiliza las mismas dependencias que el prototipo de rectas.
+
+### Ejecución
+
+```powershell
+python hough_circunferencias.py
+```
+
+En el ejemplo con radio de 30 píxeles se obtiene el centro (100, 80), con 200 votos y un error de 0 píxeles.
+
+### Prueba con un radio incorrecto
+
+```powershell
+python hough_circunferencias.py --radio 25
+```
+
+El máximo obtiene 31 votos y no alcanza el umbral de aceptación de 60.
+
+Las imágenes y los registros se guardan en la carpeta `resultados_circunferencias`.
