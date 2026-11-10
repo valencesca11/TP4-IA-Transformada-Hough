@@ -1,0 +1,10 @@
+{
+  "caso": "solo_ruido",
+  "semilla": 21,
+  "umbral_votos": 35,
+  "paso_rho_px": 1,
+  "paso_theta_grados": 1,
+  "pixeles_borde": 400,
+  "rectas": [],
+  "nota": "Theta corresponde a la normal. Las rectas se dibujan completas, no como segmentos."
+}

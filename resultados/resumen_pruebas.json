@@ -1,0 +1,37 @@
+[
+  {
+    "caso": "limpio",
+    "umbral": 35,
+    "rectas": 4
+  },
+  {
+    "caso": "ruido",
+    "umbral": 35,
+    "rectas": 4
+  },
+  {
+    "caso": "interrumpido",
+    "umbral": 35,
+    "rectas": 4
+  },
+  {
+    "caso": "vacio",
+    "umbral": 35,
+    "rectas": 0
+  },
+  {
+    "caso": "solo_ruido",
+    "umbral": 35,
+    "rectas": 0
+  },
+  {
+    "caso": "interrumpido",
+    "umbral": 15,
+    "rectas": 8
+  },
+  {
+    "caso": "interrumpido",
+    "umbral": 55,
+    "rectas": 2
+  }
+]

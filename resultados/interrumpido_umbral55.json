@@ -1,0 +1,21 @@
+{
+  "caso": "interrumpido",
+  "semilla": 21,
+  "umbral_votos": 55,
+  "paso_rho_px": 1,
+  "paso_theta_grados": 1,
+  "pixeles_borde": 841,
+  "rectas": [
+    {
+      "rho_px": 134.0,
+      "theta_grados": 102.0,
+      "votos": 132
+    },
+    {
+      "rho_px": 34.0,
+      "theta_grados": 102.0,
+      "votos": 131
+    }
+  ],
+  "nota": "Theta corresponde a la normal. Las rectas se dibujan completas, no como segmentos."
+}
